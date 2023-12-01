@@ -1,0 +1,145 @@
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  background-color: rgb(255, 140, 50);
+  position: sticky;
+  top: 0;
+}
+#logo-kiri {
+  flex: 5;
+}
+header.header-container div h1 {
+  margin-left: 20px;
+  margin-top: 10.5px;
+  margin-bottom: 10.5px;
+}
+#navbar {
+  flex: 5;
+}
+.nav-container {
+  display: flex;
+  gap: 20px;
+  justify-content: right;
+  margin-right: 20px;
+}
+.nav-container li {
+  list-style-type: none;
+}
+.nav-container a {
+  text-decoration: none;
+  color: black;
+  border-radius: 5px;
+  background-color: white;
+  padding: 5px;
+}
+.nav-container a:hover {
+  background-color: black;
+  color: white;
+  transition: ease-in-out 0.25s;
+}
+
+main{
+  display: flex;
+  flex-direction: column;
+}
+
+.welcome {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(221, 221, 221);
+  height: 91vh;
+}
+#welcome-img {
+  height: 450px;
+  border-radius: 10px;
+}
+.kata-sambutan {
+  display: flex;
+}
+.kata-sambutan h1 {
+  align-self: center;
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px;
+}
+.kata-sambutan h1:hover{
+    transition: ease-in .5s;
+    background-color: rgb(255, 140, 50);
+}
+.gambar-sambutan{
+  display: flex;
+  flex-direction: column;
+  align-self:center
+}
+#about{
+  background-color: rgb(6, 17, 60);
+  color: white;
+}
+.about{
+  background-color: rgb(6, 17, 60);
+  color: white;
+  display: flex;
+  gap: 50px;
+  margin-bottom: 30px;
+}
+
+.about table{
+  background-color: white;
+  color: black;
+  border-radius: 20px;
+  flex: 2;
+  margin-left: 50px;
+}
+.about p{
+  flex: 4;
+  margin-right: 50px;
+  text-align: justify;
+}
+#gallery{
+  background-color: rgb(221, 221, 221);
+}
+.galerry{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:center;
+  gap: 20px;
+  justify-items: center;
+}
+.galerry>li{
+  flex-basis: 200px;
+  list-style-type: none;
+}
+.galerry li img {
+  height: 300px;
+  border: solid;
+  border-width:thick;
+  border-radius: 5px;
+  border-color: rgb(6, 17, 60) ;
+  background-color: rgb(255, 140, 50);
+}
+
+aside h1 a{
+  color: white;
+}
+
+.footer-container{
+  display: flex;
+  justify-content: right;
+  flex-wrap: wrap;
+  gap: 50px;
+  background-color: rgb(255, 140, 50);
+}
+.footer-container table{
+  margin-right: 20px;
+}
+.footer-container aside{
+  flex: 1;
+  margin-left: 20px;
+}
+
