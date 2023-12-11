@@ -57,7 +57,7 @@ main{
   height: 91vh;
 }
 #welcome-img {
-  height: 450px;
+  width: 400px;
   border-radius: 10px;
 }
 .kata-sambutan {
@@ -86,7 +86,9 @@ main{
   background-color: rgb(6, 17, 60);
   color: white;
   display: flex;
+  align-items: center;
   gap: 50px;
+  column-gap: 10px;
   margin-bottom: 30px;
 }
 
@@ -96,10 +98,12 @@ main{
   border-radius: 20px;
   flex: 2;
   margin-left: 50px;
+  margin-right: 50px;
 }
 .about p{
   flex: 4;
   margin-right: 50px;
+  margin-left: 50px;
   text-align: justify;
 }
 #gallery{
@@ -111,13 +115,14 @@ main{
   justify-content:center;
   gap: 20px;
   justify-items: center;
+  align-items: center;
 }
 .galerry>li{
   flex-basis: 200px;
   list-style-type: none;
 }
 .galerry li img {
-  height: 300px;
+  width: 250px;
   border: solid;
   border-width:thick;
   border-radius: 5px;
@@ -145,11 +150,18 @@ aside h1 a{
 }
 
 
-@media screen and (max-width: 1200px) {
-}
-
 @media screen and (max-width: 768px) {
+  .header-container h1{
+    text-align: center;
+  }
+  .nav-container{
+    justify-content: center;
+  }
   .welcome{
     flex-wrap: wrap;
+  }
+  .about{
+    flex-wrap: wrap;
+    flex-direction: column;
   }
 }
