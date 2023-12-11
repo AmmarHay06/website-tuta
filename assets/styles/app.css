@@ -138,15 +138,16 @@ aside h1 a{
   display: flex;
   justify-content: right;
   flex-wrap: wrap;
-  gap: 50px;
   background-color: rgb(255, 140, 50);
 }
 .footer-container table{
   margin-right: 20px;
+  margin-left: 20px;
 }
 .footer-container aside{
   flex: 1;
   margin-left: 20px;
+  margin-right: 20px;
 }
 
 
@@ -163,5 +164,11 @@ aside h1 a{
   .about{
     flex-wrap: wrap;
     flex-direction: column;
+  }
+  .footer-container h3{
+    text-align: center;
+  }
+  .footer-container{
+    justify-content: center;
   }
 }
