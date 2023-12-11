@@ -6,6 +6,7 @@ body {
 
 .header-container {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   background-color: rgb(255, 140, 50);
   position: sticky;
@@ -143,3 +144,12 @@ aside h1 a{
   margin-left: 20px;
 }
 
+
+@media screen and (max-width: 1200px) {
+}
+
+@media screen and (max-width: 768px) {
+  .welcome{
+    flex-wrap: wrap;
+  }
+}
